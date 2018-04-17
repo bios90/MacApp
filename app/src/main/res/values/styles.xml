@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/darkGray</item>
+        <item name="colorControlNormal">@color/macRed</item>
+        <item name="colorControlActivated">@color/macRed</item>
+        <item name="colorControlHighlight">@color/macRed</item>
+        <item name="android:textColorHint">@color/macRed</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/macYellow</item>
+        <item name="android:textColorSecondary">@color/macYellow</item>
+        <item name="actionMenuTextColor">@color/macYellow</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Activity_Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowMinWidthMajor">80%</item>w
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MyEditTextTheme"  parent="android:Widget.EditText">
+        <item name="colorControlNormal">@color/macRed</item>
+        <item name="colorControlActivated">@color/macRed</item>
+        <item name="colorControlHighlight">@color/macRed</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/macYellow</item>
+        <item name="colorControlHighlight">@color/macYellow</item>
+        <item name="android:textColorHint">@color/macYellow</item>
+
+        </style>>
+
+    <style name="RedEdit" parent="@android:style/Widget.EditText">
+        <item name="colorControlActivated">@color/macYellow</item>
+        <item name="colorControlHighlight">@color/macYellow</item>
+        <item name="android:textColorHint">@color/macYellow</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/macYellow</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/rounded_corners</item>
+        <item name="android:minLines">4</item>
+    </style>
+
+
+
+
+</resources>

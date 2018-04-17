@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/rounded_corners"
+   
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:paddingBottom="8dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounded_corners_yellow"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageButton
+            android:id="@+id/categAll"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/all"
+            android:scaleType="centerInside"
+            android:background="@android:color/white"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/categBurgers"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/burgers"
+            android:background="@android:color/white"
+            android:scaleType="centerInside"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/choose1"
+            android:background="@android:color/white"
+            android:textColor="@color/macRed"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Всё Меню"
+            android:layout_weight=".5"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/choose2"
+            android:background="@android:color/white"
+            android:textColor="@color/macRed"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Бургеры"
+            android:layout_weight=".5"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageButton
+            android:id="@+id/categSnacks"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/snacks"
+            android:scaleType="centerInside"
+            android:background="@android:color/white"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/categDrinks"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/drinks"
+            android:background="@android:color/white"
+            android:scaleType="centerInside"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/choose3"
+            android:background="@android:color/white"
+            android:textColor="@color/macRed"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Закуски"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/choose4"
+            android:background="@android:color/white"
+            android:textColor="@color/macRed"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Напитки"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

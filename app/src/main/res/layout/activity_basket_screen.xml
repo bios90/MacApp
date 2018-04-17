@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@color/macYellow"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dimfcompany.macapp2.basket_screen">
+
+
+<LinearLayout
+    android:id="@+id/basketLayout"
+    android:layout_weight="8"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <ListView
+        android:id="@+id/basketListview"
+        android:padding="8dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+    </ListView>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:minHeight="80dp"
+        android:background="@color/macRed"
+        android:orientation="horizontal"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:textColor="@color/macRed"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:text="Отчистить корзину"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_yellow"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/macYellow"
+            android:text="Сумма :"
+            android:gravity="center"
+            android:layout_weight=".8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/basketFullPrice"
+            android:textSize="18dp"
+            android:textColor="@color/macYellow"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonMakeOrder"
+        android:minHeight="80dp"
+        android:textSize="26dp"
+        android:textColor="@color/macYellow"
+        android:textAllCaps="false"
+        android:text="Оформить заказ"
+        android:background="@drawable/rounded_corners"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

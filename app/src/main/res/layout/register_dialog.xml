@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/regDialog"
+    android:padding="8dp"
+    android:background="@drawable/rounded_corners"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:background="@drawable/rounded_corners_yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="12dp"
+            android:orientation="vertical"
+            android:background="@color/macYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/regNameTB"
+                android:layout_marginTop="0dp"
+                android:text="Имя"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/regName"
+                android:hint="введите ваше имя"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/regMailTB"
+                android:layout_marginTop="20dp"
+                android:text="Почта"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/regMail"
+                android:inputType="textEmailAddress"
+                android:hint="введите ваше почту"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyEditTextTheme"
+                />
+
+            <TextView
+                android:id="@+id/regPhoneTB"
+                android:layout_marginTop="20dp"
+                android:text="Телефон"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/regPhone"
+                android:inputType="phone"
+                android:hint="введите ваш номер"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyEditTextTheme"
+                />
+
+            <TextView
+                android:id="@+id/regPassTB"
+                android:layout_marginTop="20dp"
+                android:text="Пароль"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/regPass"
+                android:inputType="textPassword"
+                android:hint="введите пароль"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyEditTextTheme"
+                />
+            <EditText
+                android:layout_marginTop="6dp"
+                android:id="@+id/regPassRepeat"
+                android:inputType="textPassword"
+                android:hint="повторите пароль"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/macRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyEditTextTheme"
+                />
+
+
+
+            <Button
+                android:id="@+id/regButton"
+                android:textSize="26dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/macYellow"
+                android:text="Зарегистрироваться"
+                android:background="@drawable/rounded_corners"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/macYellow"
+    android:padding="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dimfcompany.macapp2.login_register">
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1.4"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:text="Почта"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Введите вашу почту"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Пароль"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:hint="Введите пароль"
+            android:gravity="center"
+            android:textSize="16dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyEditTextTheme"
+            />
+
+        <Button
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:textColor="@color/macYellow"
+            android:text="Зарегистрироваться"
+            android:background="@drawable/rounded_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Уже зарегистрированны? \nTогда просто войдите=)"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:hint="Введите вашу почту"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:hint="Введите пароль"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/darkGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginLeft="46dp"
+            android:textColor="@color/macYellow"
+            android:text="Войти"
+            android:background="@drawable/rounded_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

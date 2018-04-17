@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1766894267",
+    "firebase_url": "https://macapp2-7b508.firebaseio.com",
+    "project_id": "macapp2-7b508",
+    "storage_bucket": "macapp2-7b508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1766894267:android:909d8aff4b1538c8",
+        "android_client_info": {
+          "package_name": "com.dimfcompany.macapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1766894267-6brauicqf5oofqnrn4bcm8oc4frao243.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dimfcompany.macapp2",
+            "certificate_hash": "6235ea09e3a99e42aa3aac95196296a06f2e8d64"
+          }
+        },
+        {
+          "client_id": "1766894267-p8id8ku08b9esrgtjq8stl9l9klh5vn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVW6MGzAcvYetUn4X0Vly30sWC9TIxniY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1766894267-p8id8ku08b9esrgtjq8stl9l9klh5vn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

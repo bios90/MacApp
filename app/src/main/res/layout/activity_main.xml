@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/macYellow"
+    android:id="@+id/mainLayout"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.dimfcompany.macapp2.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_gravity="center"
+            android:id="@+id/toolBarTest"
+            android:titleTextColor="@color/macYellow"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/macRed"
+            android:theme="@style/ToolBarStyle">
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="28dp"
+            android:id="@+id/toolBarTitle"
+
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/cartImage"
+            android:background="@android:color/transparent"
+            android:scaleX="-1"
+            android:tint="@color/macYellow"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_shopping_cart_black_36dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+<FrameLayout
+    class="com.dimfcompany.macapp2.yellowHelper"
+    android:id="@+id/testfrag"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    ></FrameLayout>
+
+</LinearLayout>

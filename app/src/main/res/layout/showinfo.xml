@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:padding="8dp"
+    android:background="@drawable/rounded_corners"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/rounded_corners_yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/infotitle"
+            android:gravity="center"
+            android:text="Внимание!"
+            android:textSize="30dp"
+            android:textColor="@color/macRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/infoMain"
+            android:gravity="start"
+            android:text="Данное приложение является демонстрацией,оно ничего не доставляет и никак не связано с компанией Макдональдс. Приложение создано исключительно как пример приложения,которое вы можете заказать для вашего магазина/ресторана/службы доставки. По всем вопросам обращайтесь на почту :
+            \ndimfcompany@gmail.com"
+            android:textSize="16dp"
+            android:textColor="@color/macRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/moreInfo"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:layout_marginTop="16dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="22dp"
+            android:textSize="26dp"
+            android:textColor="@color/macYellow"
+            android:textAllCaps="false"
+            android:text="Услуги"
+            android:background="@drawable/rounded_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/moreInfoText"
+            android:layout_below="@+id/sostavButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="10dp"
+            app:ael_expanded="false"
+            app:ael_duration="400"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/uslugi"
+
+                android:padding="8dp"
+                android:paddingTop="6dp"
+                android:background="@drawable/rounded_corners"
+                android:textSize="16dp"
+                android:textColor="@color/macYellow"
+                android:text="-создание приложения с нуля\n\n-всё включено от создания дизайна,до публикации в Google Play/AppStore\n\n-подключение к действующей базе данных клиентов или создание новой\n\n-мы можем реализовать любые ваши идеи,от простого переноса сайта в приложение,до разработки 3д игр\n\n-сроки создания от 3х дней,цены от 5000 рублей\n\n-администрирование, доработка, изменения приложения"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        <Button
+            android:id="@+id/closeinfo"
+            android:layout_marginTop="8dp"
+            android:paddingRight="18dp"
+            android:paddingLeft="22dp"
+            android:textSize="26dp"
+            android:textColor="@color/macRed"
+            android:textAllCaps="false"
+            android:text="Ясно-понятно,закрыть"
+            android:background="@drawable/rounded_corners_uellowinside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>
